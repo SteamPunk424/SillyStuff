@@ -17,7 +17,9 @@
 
 > Meow.  
 > — Ancient Feline Proverb
-![Click here for more meows](https://www.google.com/search?q=cats)
+
+[Click here for more meows](https://www.google.com/search?tbm=isch&q=cats)
+
 `meow`
 
 Meow
