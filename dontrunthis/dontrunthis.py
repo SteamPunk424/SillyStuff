@@ -19,15 +19,16 @@ with open(wut, 'wb') as f:
     f.write(base64.b64decode(b64))
 
 try:
-    # Load and play
+   
     data, samplerate = sf.read(wut, dtype='float32')
     sd.play(data, samplerate)
     sd.wait()
 except Exception as e:
     print("dat broke da heck", e)
 finally:
-    # Delete the file after playback
+   
     if os.path.exists(wut):
         os.remove(wut)
+
 
 
